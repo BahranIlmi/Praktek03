@@ -27,5 +27,14 @@ public class SepatuAksi {
         System.out.println(Vans.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(Vans.getHarga());
+        
+        Sandal Ardiles = new Sandal();
+        Ardiles.setJenis("Gunung");
+        Ardiles.setWarna("Hitam");
+        Ardiles.setHarga(100000);
+        Ardiles.setKualitas("Original");
+        Ardiles.cetakInfo();
+        System.out.println("Kualitas \t:"+Ardiles.getKualitas());
+        Ardiles.throttle();
     }
 }
