@@ -5,17 +5,17 @@ public class SepatuAksi {
         Sepatu Nike = new Sepatu();
         Sepatu Adidas = new Sepatu();
         
-        Vans.jenis="Sneakers";
-        Vans.warna="Hitam";
-        Vans.harga=300000;
+        Vans.setJenis("Casual");
+        Vans.setWarna("Biru");
+        Vans.setHarga(300000);
         
-        Nike.jenis="Running";
-        Nike.warna="Navy";
-        Nike.harga=500000;
+        Nike.setJenis("Futsal");
+        Nike.setWarna("Abu-Abu");
+        Nike.setHarga(500000);
         
-        Adidas.jenis="Boots";
-        Adidas.warna="Hitam";
-        Adidas.harga=800000;
+        Adidas.setJenis("Sneakers");
+        Adidas.setWarna("Putih");
+        Adidas.setHarga(800000);
         
         Vans.cetakInfo();
         Nike.cetakInfo();
