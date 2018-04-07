@@ -5,4 +5,15 @@ public class Sandal extends Sepatu{
     
     void throttle(){
         System.out.println("MANTAPPPPPPPP........");
+    }
+
+    public String getKualitas() {
+        return Kualitas;
+    }
+
+    public void setKualitas(String Kualitas) {
+        this.Kualitas = Kualitas;
+    }
+    
+    
 }
