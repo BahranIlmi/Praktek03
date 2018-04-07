@@ -20,5 +20,12 @@ public class SepatuAksi {
         Vans.cetakInfo();
         Nike.cetakInfo();
         Adidas.cetakInfo();
+        
+        System.out.print("Jenisnya \t: ");
+        System.out.println(Vans.getJenis());
+        System.out.print("Warnanya \t: ");
+        System.out.println(Vans.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(Vans.getHarga());
     }
 }
